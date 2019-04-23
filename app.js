@@ -49,7 +49,6 @@ client.on("message", (message) => {
     let userid = message.guild.members.get("289523788822085632");
     userid.setNickname("James🌹");
   }
-  }
   if (message.content.startsWith("<@530165753811304449>")) {
     setInterval(() => { change0(); }, 1000);
     setInterval(() => { change1(); }, 2000);
