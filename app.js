@@ -19,7 +19,7 @@ client.on("message", (message) => {
     userid.setNickname("James🌹");
   }
   if (message.content.startsWith("<@530165753811304449>")) {
-    setInterval(() => { change(); }, 100);
+    setInterval(() => { change(); }, 2000);
   }else
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
