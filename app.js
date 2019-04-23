@@ -48,15 +48,15 @@ client.on("message", (message) => {
   function change10() {
     let userid = message.guild.members.get("289523788822085632");
     console.log("cycle");
-    setTimeout(change0(), 6000);
-    setTimeout(change1(), 5000);
-    setTimeout(change2(), 4000);
-    setTimeout(change3(), 3000);
-    setTimeout(change4(), 2000);
-    setTimeout(change5(), 1000);
+    setInterval(() => { change0(); }, 1000);
+    setInterval(() => { change1(); }, 1000);
+    setInterval(() => { change2(); }, 1000);
+    setInterval(() => { change3(); }, 1000);
+    setInterval(() => { change4(); }, 1000);
+    setInterval(() => { change5(); }, 1000);
   }
   if (message.content.startsWith("<@530165753811304449>")) {
-    setInterval(() => { change10(); }, 55000);
+    setInterval(() => { change10(); }, 21000);
   }else
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
