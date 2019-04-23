@@ -50,17 +50,12 @@ client.on("message", (message) => {
     userid.setNickname("James🌹");
   }
   if (message.content.startsWith("<@530165753811304449>")) {
-    setInterval(() => { change0(); }, 1000);
-    setInterval(() => { change1(); }, 2000);
-    setInterval(() => { change2(); }, 2000);
-    setInterval(() => { change3(); }, 2000);
-    setInterval(() => { change4(); }, 2000);
-    setInterval(() => { change5(); }, 2000);
-    setInterval(() => { change6(); }, 2000);
-    setInterval(() => { change7(); }, 2000);
-    setInterval(() => { change8(); }, 2000);
-    setInterval(() => { change9(); }, 2000);
-    setInterval(() => { change10(); }, 2000);
+    setInterval(() => { change0(); }, 1600);
+    setInterval(() => { change1(); }, 1500);
+    setInterval(() => { change2(); }, 1400);
+    setInterval(() => { change3(); }, 1300);
+    setInterval(() => { change4(); }, 1200);
+    setInterval(() => { change5(); }, 1100);
   }else
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
