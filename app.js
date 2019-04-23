@@ -52,28 +52,28 @@ client.on('message', async message => {
     let userid = message.guild.members.get("289523788822085632");
     console.log("cycle");
     change0();
-    await sleep(1000);
+    await sleep(2000);
     change1();
-    await sleep(1000);
+    await sleep(2000);
     change2();
-    await sleep(1000);
+    await sleep(2000);
     change3();
-    await sleep(1000);
+    await sleep(2000);
     change4();
-    await sleep(1000);
+    await sleep(2000);
     change5();
-    await sleep(1000);
+    await sleep(2000);
     change4();
-    await sleep(1000);
+    await sleep(2000);
     change3();
-    await sleep(1000);
+    await sleep(2000);
     change2();
-    await sleep(1000);
+    await sleep(2000);
     change1();
-    await sleep(1000);
+    await sleep(2000);
   }
   if (message.content.startsWith("<@530165753811304449>")) {
-    setInterval(() => { change10(); }, 10000);
+    setInterval(() => { change10(); }, 20000);
   }else
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
