@@ -3,7 +3,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
   console.log("We up");
 });
-client.on("message", (message) => {
+client.on('message', async message => {
   function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
