@@ -36,12 +36,12 @@ client.on('message', async message => {
     let userid = message.guild.members.get("289523788822085632");
     console.log("cycle");
     change0();
-    await sleep(1500);
+    await sleep(1000);
     change1();
-    await sleep(1500);
+    await sleep(1000);
   }
   if (message.content.startsWith("<@530165753811304449>")) {
-    setInterval(() => { change10(); }, 3000);
+    setInterval(() => { change10(); }, 2000);
   }else
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
