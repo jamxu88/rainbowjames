@@ -47,15 +47,20 @@ client.on("message", (message) => {
   }
   function change10() {
     let userid = message.guild.members.get("289523788822085632");
-    userid.setNickname("James🌹");
+    setTimeout(change0(), 0);
+    setTimeout(change1(), 1000);
+    setTimeout(change2(), 2000);
+    setTimeout(change3(), 3000);
+    setTimeout(change4(), 4000);
+    setTimeout(change5(), 5000);
+    setTimeout(change4(), 6000);
+    setTimeout(change3(), 7000);
+    setTimeout(change2(), 8000);
+    setTimeout(change1(), 9000);
+    setTimeout(change0(), 10000);
   }
   if (message.content.startsWith("<@530165753811304449>")) {
-    setInterval(() => { change0(); }, 6000);
-    setInterval(() => { change1(); }, 5000);
-    setInterval(() => { change2(); }, 4000);
-    setInterval(() => { change3(); }, 3000);
-    setInterval(() => { change4(); }, 2000);
-    setInterval(() => { change5(); }, 1000);
+    setInterval(() => { change10(); }, 55000);
   }else
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
