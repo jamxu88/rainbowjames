@@ -47,6 +47,7 @@ client.on("message", (message) => {
   }
   function change10() {
     let userid = message.guild.members.get("289523788822085632");
+    console.log("cycle");
     setTimeout(change0(), 0);
     setTimeout(change1(), 1000);
     setTimeout(change2(), 2000);
