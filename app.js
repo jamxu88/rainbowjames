@@ -10,7 +10,7 @@ client.on('message', async message => {
   console.log(message.author.id)
   function change0() {
     let userid = message.guild.members.get("289523788822085632");
-    userid.setNickname("James🌹");
+    userid.setNickname("J̸̩̼̘͍̻̳̝͇̳̅̿̓̇̅̽̏ā̸̛͈͉͇̦̰̘͚̭̠̌͐̋͛͊̆̚m̷̫̥̘͈̙̔̂̀̌é̴͎͇͉̈́̽͑́͐s̶͇̼̲̅̈́̀̂͑͜͝");
   }
   function change1() {
     let userid = message.guild.members.get("289523788822085632");
