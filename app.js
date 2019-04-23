@@ -51,25 +51,25 @@ client.on('message', async message => {
   async function change10() {
     let userid = message.guild.members.get("289523788822085632");
     console.log("cycle");
-    change(0);
+    change0();
     await sleep(1000);
-    change(1);
+    change1();
     await sleep(1000);
-    change(2);
+    change2();
     await sleep(1000);
-    change(3);
+    change3();
     await sleep(1000);
-    change(4);
+    change4();
     await sleep(1000);
-    change(5);
+    change5();
     await sleep(1000);
-    change(4);
+    change4();
     await sleep(1000);
-    change(3);
+    change3();
     await sleep(1000);
-    change(2);
+    change2();
     await sleep(1000);
-    change(1);
+    change1();
     await sleep(1000);
   }
   if (message.content.startsWith("<@530165753811304449>")) {
