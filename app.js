@@ -16,10 +16,10 @@ client.on("message", (message) => {
     userid.setNickname("Ja");
     userid.setNickname("Jam");
     userid.setNickname("Jame");
-    userid.setNickname("James");
+    userid.setNickname("James🌹");
   }
   if (message.content.startsWith("<@530165753811304449>")) {
-    setInterval(() => { change(); }, 1000);
+    setInterval(() => { change(); }, 100);
   }else
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
