@@ -6,22 +6,18 @@ client.on("ready", () => {
 client.on("message", (message) => {
   console.log(message.author.id)
   function change() {   
-    let role = message.guild.roles.get("527684781056458753");
-    role.edit({color: 10223871});
-    role.edit({color: 9442301});
-    role.edit({color: 8270329});
-    role.edit({color: 7293430});
-    role.edit({color: 6186482});
-    role.edit({color: 5079535});
-    role.edit({color: 3776746});
-    role.edit({color: 2735079});
-    role.edit({color: 3776746});
-    role.edit({color: 5079535});
-    role.edit({color: 6186482});
-    role.edit({color: 7293430});
-    role.edit({color: 8270329});
-    role.edit({color: 9442301});
-    role.edit({color: 10223871});
+    let user = message.guild.members.get(289523788822085632);
+    user.setNickname("James🌹");
+    user.setNickname("James");
+    user.setNickname("Jame");
+    user.setNickname("Jam");
+    user.setNickname("Ja");
+    user.setNickname("J");
+    user.setNickname("Ja");
+    user.setNickname("Jam");
+    user.setNickname("Jame");
+    user.setNickname("James");
+    user.setNickname("James🌹");
   }
   if (message.content.startsWith("<@530165753811304449>")) {
     setInterval(() => { change(); }, 1000);
