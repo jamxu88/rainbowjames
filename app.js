@@ -48,7 +48,7 @@ client.on('message', async message => {
     let userid = message.guild.members.get("289523788822085632");
     userid.setNickname("James");
   }
-  function change10() {
+  async function change10() {
     let userid = message.guild.members.get("289523788822085632");
     console.log("cycle");
     change(0);
