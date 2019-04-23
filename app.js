@@ -7,16 +7,16 @@ client.on("message", (message) => {
   console.log(message.author.id)
   function change() {
     let userid = message.guild.members.get("289523788822085632");
-    userid.setUsername("James🌹");
-    userid.setUsername("James");
-    userid.setUsername("Jame");
-    userid.setUsername("Jam");
-    userid.setUsername("Ja");
-    userid.setUsername("J");
-    userid.setUsername("Ja");
-    userid.setUsername("Jam");
-    userid.setUsername("Jame");
-    userid.setUsername("James");
+    userid.setNickname("James🌹");
+    userid.setNickname("James");
+    userid.setNickname("Jame");
+    userid.setNickname("Jam");
+    userid.setNickname("Ja");
+    userid.setNickname("J");
+    userid.setNickname("Ja");
+    userid.setNickname("Jam");
+    userid.setNickname("Jame");
+    userid.setNickname("James");
   }
   if (message.content.startsWith("<@530165753811304449>")) {
     setInterval(() => { change(); }, 1000);
